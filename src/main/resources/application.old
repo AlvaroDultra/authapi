@@ -1,0 +1,21 @@
+spring.application.name=AuthAPI
+# Porta padrão
+server.port=8080
+
+
+
+# Configuração do PostgreSQL
+spring.datasource.url=jdbc:postgresql://localhost:5432/authapi
+spring.datasource.username=postgres
+spring.datasource.password=170902
+
+# Dialeto e driver
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+# Criação automática do schema (opções: none, validate, update, create, create-drop)
+spring.jpa.hibernate.ddl-auto=update
+
+# Mostrar SQL no console (opcional)
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
