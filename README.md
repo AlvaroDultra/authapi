@@ -175,7 +175,7 @@ Resposta:
 **Álvaro Filipe Silva Dultra**  
 📍 Salvador - BA  
 💼 [LinkedIn](https://www.linkedin.com/in/alvarodultra/)  
-🧠 Foco em backend Java, direito digital e segurança da informação.
+🧠 Foco em backend Java
 
 ---
 
