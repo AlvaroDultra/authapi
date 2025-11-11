@@ -1,0 +1,71 @@
+
+# =======================================
+# 🚫 Arquivos e pastas ignoradas no AuthAPI
+# =======================================
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+spring.log
+
+# Build e cache
+build/
+out/
+classes/
+bin/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Credenciais / configs locais
+application-local.properties
+application-dev.properties
+
+# Arquivos do IntelliJ / Eclipse
+*.classpath
+*.project
+*.settings/
+
+# Docker (gerados em runtime)
+*.pid
+*.seed
+*.pid.lock
+
+# Sistema operacional (Linux / Mac)
+ehthumbs.db
+Icon?
+
+# Testes temporários
+test-output/
+
+# Arquivos do Swagger UI gerados automaticamente
+swagger-ui/
+swagger.json
+swagger.yaml
+
+# Node (caso tenha front futuro)
+node_modules/
+
+# ==========================
+# ✅ Fim do arquivo .gitignore
+# ==========================
